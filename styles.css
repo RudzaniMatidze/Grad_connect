@@ -47,3 +47,24 @@ body {
 .btn-primary {
     margin-top: 20px;
 }
+
+#features .row {
+    text-align: center;
+}
+
+#features img {
+    margin-bottom: 15px;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+#about a {
+    margin-right: 10px;
+}
