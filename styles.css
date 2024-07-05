@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.png') no-repeat center center fixed; /* Replace 'background-image.jpg' with your actual image path */
+    background: url('background-image.jpg') no-repeat center center fixed; /* Replace 'background-image.jpg' with your actual image path */
     background-size: cover;
     color: #333;
 }
@@ -39,7 +39,7 @@ a:hover {
 
 /* Navigation Bar */
 nav {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background for navigation */
+    background-color: #333; /* Dark background for navigation */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ nav .nav-links a {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: rgba(255, 255, 255, 0.8); /* Light translucent background for hero section */
+    background: none; /* Remove background */
 }
 
 .hero-image {
@@ -75,10 +75,10 @@ nav .nav-links a {
 
 /* Content Wrapper */
 .content-wrapper {
-    background-color: rgba(253, 253, 253, 0.966); /* Light translucent background for content sections */
+    background-color: #fff; /* White background for content sections */
     padding: 20px;
     margin: 20px auto;
-    max-width: 900px;
+    max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
