@@ -93,14 +93,33 @@ nav .nav-links a {
 }
 
 .feature {
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin-bottom: 30px;
 }
 
+.feature-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .feature-image {
-    max-width: 40%;
+    width: 150px; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.feature-description {
+    flex: 1;
+}
+
+.feature-description h3 {
+    font-size: 1.2em;
+}
+
+.feature-description p {
+    line-height: 1.6;
 }
 
 /* Dev Process Section */
