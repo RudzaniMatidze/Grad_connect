@@ -92,7 +92,7 @@ section p {
     margin-bottom: 20px; /* Add margin below paragraphs */
 }
 .feature-image {
-    width: 50%; /* Set width of images */
+    width: 10%; /* Set width of images */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add margin below images */
 }
