@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 nav {
-    background-color: #724343;
+    background-color: #333;
     overflow: hidden;
     display: flex; /* Use flexbox for layout */
     justify-content: flex-end; /* Align items to the right */
@@ -36,4 +36,20 @@ section h2 {
 }
 section p {
     color: #666;
+}
+
+/* Styling for the team members list */
+#team-members ul {
+    list-style-type: none;
+    padding: 0;
+}
+#team-members li {
+    margin-bottom: 20px;
+}
+#team-members a {
+    text-decoration: none;
+    color: #007bff;
+}
+#team-members a:hover {
+    text-decoration: underline;
 }
