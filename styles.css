@@ -166,6 +166,6 @@ nav .nav-links a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 50px; /* Add margin-bottom to the list */
+    margin-bottom: 80px; /* Add margin-bottom to the list */
 }
 
