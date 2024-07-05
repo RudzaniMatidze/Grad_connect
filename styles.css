@@ -74,10 +74,10 @@ nav .nav-links a {
 
 /* Content Wrapper */
 .content-wrapper {
-    background-color: rgb(241, 252, 202); /* White background for content */
+    background-color: rgba(247, 248, 252, 0.856); /* White background for content */
     padding: 20px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 900px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(43, 24, 24, 0.1);
 }
