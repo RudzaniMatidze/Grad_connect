@@ -11,17 +11,19 @@ nav {
     overflow: hidden;
     display: flex; /* Use flexbox for layout */
     justify-content: flex-end; /* Align items to the right */
+    height: 60px; /* Increase the height of the navigation bar */
 }
 nav a {
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 20px 30px; /* Increase padding for larger clickable area */
     text-decoration: none;
     margin-left: 10px; /* Add some spacing between links */
+    font-size: 18px; /* Increase font size */
 }
 nav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(41, 26, 26);
 }
 
 /* Styling for the main content sections */
