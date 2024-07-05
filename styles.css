@@ -77,7 +77,7 @@ nav .nav-links a {
 
 /* Content Wrapper */
 .content-wrapper {
-    background-color: #f5d99c; /* White background for content sections */
+    background-color: #e6d4af; /* White background for content sections */
     padding: 20px;
     margin: 20px auto;
     max-width: 1000px;
@@ -170,6 +170,6 @@ nav .nav-links a {
 }
 
 #about ul li {
-    margin: 15px; /* Add margin around each list item */
+    margin: 25px; /* Add margin around each list item */
     text-align: center;
 }
