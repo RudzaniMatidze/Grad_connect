@@ -66,7 +66,7 @@ nav .nav-links a {
 .hero-image {
     width: 100%;
     height: auto;
-    max-height: 500px; /* Large image */
+    max-height: 400px; /* Large image */
     object-fit: cover;
 }
 
@@ -80,7 +80,7 @@ nav .nav-links a {
     background-color: #f5d99c; /* White background for content sections */
     padding: 20px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 1000px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #000; /* Black text color for content */
