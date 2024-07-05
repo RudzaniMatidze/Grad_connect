@@ -13,12 +13,10 @@ nav {
     justify-content: space-between; /* Space between brand and nav links */
     align-items: center; /* Center align items vertically */
     height: 60px; /* Height of the navigation bar */
+    padding: 0 20px; /* Add padding to the sides of the nav */
 }
-.brand a {
+.brand {
     color: white;
-    text-align: center;
-    padding: 20px 30px; /* Padding for clickable area */
-    text-decoration: none;
     font-size: 18px; /* Font size */
 }
 .nav-links {
@@ -36,6 +34,26 @@ nav {
 .nav-links a:hover {
     background-color: #ddd;
     color: black;
+}
+
+/* Hero section styling */
+.hero {
+    position: relative; /* Position relative to contain the text */
+    text-align: center; /* Center-align text */
+}
+.hero-image {
+    width: 100%; /* Make image full width */
+    height: auto; /* Maintain aspect ratio */
+}
+.hero-description {
+    position: absolute; /* Position text over the image */
+    bottom: 20px; /* Position from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    color: white; /* White text */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px; /* Padding for better readability */
+    border-radius: 5px; /* Rounded corners */
 }
 
 /* Styling for the main content sections */
