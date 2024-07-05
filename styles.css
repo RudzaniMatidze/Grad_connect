@@ -74,17 +74,22 @@ section p {
 
 /* Styling for feature sections */
 .feature {
-    margin-bottom: 30px; /* Add margin between features */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
     text-align: center; /* Center align feature content */
+    margin-bottom: 30px; /* Add margin between features */
 }
 .feature h3 {
     color: #333;
+    margin-top: 10px; /* Add margin on top of headings */
 }
 .feature p {
     color: #666;
+    margin-bottom: 20px; /* Add margin below paragraphs */
 }
 .feature-image {
-    max-width: 100px; /* Set maximum width for images */
+    width: 150px; /* Set width of images */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add margin below images */
 }
