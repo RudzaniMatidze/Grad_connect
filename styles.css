@@ -74,12 +74,12 @@ nav .nav-links a {
 
 /* Content Wrapper */
 .content-wrapper {
-    background-color: white; /* White background for content */
+    background-color: rgb(241, 252, 202); /* White background for content */
     padding: 20px;
     margin: 20px auto;
     max-width: 1200px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(43, 24, 24, 0.1);
 }
 
 /* Features Section */
