@@ -44,7 +44,9 @@ section p {
     padding: 0;
 }
 #team-members li {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Add margin between list items */
+    padding: 10px 0; /* Optional: add padding for better spacing */
+    border-bottom: 1px solid #ddd; /* Optional: add a bottom border for separation */
 }
 #team-members a {
     text-decoration: none;
@@ -53,3 +55,4 @@ section p {
 #team-members a:hover {
     text-decoration: underline;
 }
+
