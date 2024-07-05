@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background-image.jpg') no-repeat center center fixed; /* Replace 'background-image.jpg' with your actual image path */
+    background: url('background.png') no-repeat center center fixed; /* Replace 'background-image.jpg' with your actual image path */
     background-size: cover;
     color: #333;
 }
@@ -78,7 +78,7 @@ nav .nav-links a {
     background-color: #fff; /* White background for content sections */
     padding: 20px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 900px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -95,7 +95,7 @@ nav .nav-links a {
 
 .feature {
     display: flex;
-    align-items: center;
+    align-items: row;
     margin-bottom: 30px;
 }
 
@@ -106,7 +106,7 @@ nav .nav-links a {
 }
 
 .feature-image {
-    width: 150px; /* Adjust size as needed */
+    width: 1000px; /* Adjust size as needed */
     height: auto;
     margin-right: 20px;
 }
