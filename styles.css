@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 nav {
-    background-color: #333;
+    background-color: #724343;
     overflow: hidden;
     display: flex; /* Use flexbox for layout */
     justify-content: flex-end; /* Align items to the right */
