@@ -48,7 +48,7 @@ nav {
 }
 
 nav .brand {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 nav .nav-links a {
@@ -169,3 +169,7 @@ nav .nav-links a {
     margin-bottom: 80px; /* Add margin-bottom to the list */
 }
 
+#about ul li {
+    margin: 15px; /* Add margin around each list item */
+    text-align: center;
+}
