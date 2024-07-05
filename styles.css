@@ -64,7 +64,7 @@ section {
     margin: 20px 0;
     border-radius: 5px;
 }
-section h1 {
+section h2 {
     color: #333;
     text-align: center; /* Center align the section headings */
 }
@@ -73,13 +73,10 @@ section p {
 }
 
 /* Styling for feature sections */
-#features {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Space evenly between features */
-    flex-wrap: wrap; /* Wrap items to the next line if they don't fit */
-}
 .feature {
-    width: 30%; /* Set width of each feature */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
     text-align: center; /* Center align feature content */
     margin-bottom: 30px; /* Add margin between features */
 }
@@ -92,7 +89,7 @@ section p {
     margin-bottom: 20px; /* Add margin below paragraphs */
 }
 .feature-image {
-    width: 10%; /* Set width of images */
+    width: 500px; /* Set width of images */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add margin below images */
 }
