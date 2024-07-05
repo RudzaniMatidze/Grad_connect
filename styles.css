@@ -78,7 +78,7 @@ nav .nav-links a {
     background-color: rgba(255, 255, 255, 0.8); /* Light translucent background for content sections */
     padding: 20px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 900px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
