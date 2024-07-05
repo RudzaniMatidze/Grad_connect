@@ -23,7 +23,7 @@ nav a {
 }
 nav a:hover {
     background-color: #ddd;
-    color: rgb(41, 26, 26);
+    color: black;
 }
 
 /* Styling for the main content sections */
@@ -41,20 +41,24 @@ section p {
 }
 
 /* Styling for the team members list */
-#team-members ul {
+#about ul {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
 }
-#team-members li {
+#about li {
     margin-bottom: 20px; /* Add margin between list items */
-    padding: 10px 0; /* Optional: add padding for better spacing */
-    border-bottom: 1px solid #ddd; /* Optional: add a bottom border for separation */
+    padding: 10px 20px; /* Add padding for better spacing */
+    border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+    margin-right: 20px; /* Add right margin for spacing between items */
+    flex: 1 1 30%; /* Allow flex items to grow and shrink, with a basis of 30% width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
-#team-members a {
+#about a {
     text-decoration: none;
     color: #007bff;
 }
-#team-members a:hover {
+#about a:hover {
     text-decoration: underline;
 }
-
