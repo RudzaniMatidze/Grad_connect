@@ -59,12 +59,12 @@ nav .nav-links a {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 10px;
     background: none;
 }
 
 .hero-image {
-    width: 90%;
+    width: 100%;
     height: auto;
     max-height: 1200px; /* Large image */
     object-fit: cover;
