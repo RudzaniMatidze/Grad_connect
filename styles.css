@@ -66,7 +66,7 @@ nav .nav-links a {
 .hero-image {
     width: 90%;
     height: auto;
-    max-height: 400px; /* Large image */
+    max-height: 600px; /* Large image */
     object-fit: cover;
 }
 
@@ -173,3 +173,4 @@ nav .nav-links a {
     margin: 25px; /* Add margin around each list item */
     text-align: center;
 }
+
